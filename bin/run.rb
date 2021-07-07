@@ -1,18 +1,7 @@
 require_relative '../config/environment'
+newcli = CommandLineInterface.new
 
-
-
-puts "HELLO WORLD"
-
-
-
-def take_test
-  puts "What is your name?"
-  name = gets.chomp.capitilize
-  puts "Welcome #{name}, lets test your personality!!!"
-
-  
-end
-
-def
-greet
+newcli.art
+newcli.greet
+newcli.menu
+newcli.get_user_input
